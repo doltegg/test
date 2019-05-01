@@ -2,7 +2,7 @@
 
 title: Cathax's Reports
 #site: https://doltegg.github.io
-baseurl: /hagura # name of the repository
+baseurl: /test # name of the repository
 email: r90323011@ntu.edu.tw
 
 highlighter: rouge
