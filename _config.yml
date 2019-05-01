@@ -1,0 +1,48 @@
+### your site title here
+
+title: Cathax's Reports
+#site: https://doltegg.github.io
+baseurl: /hagura # name of the repository
+email: your@email.com
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+### exclude the instructions / write-up in the README.md
+
+paginate: 4
+
+# Tracker
+analytics: UA-83979019-4
+
+# Comments
+disqus-shortname: webjeda-demo
+
+
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: <!--more--> //["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+  
+
+sass:
+ style: compressed
+
+exclude:
+- README.md
+
+
+gems: [jekyll-seo-tag, jekyll-paginate]
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
