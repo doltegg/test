@@ -9,7 +9,8 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-paginate: 4  
+  
+paginate: 6  
 ### exclude the instructions / write-up in the README.md
 
 
