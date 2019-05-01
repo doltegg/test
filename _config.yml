@@ -14,10 +14,10 @@ kramdown:
 paginate: 4
 
 # Tracker
-analytics: UA-83979019-4
+#analytics: UA-83979019-4
 
 # Comments
-disqus-shortname: webjeda-demo
+#disqus-shortname: webjeda-demo
 
 
 #optimization
@@ -28,8 +28,8 @@ compress_html:
   endings: [all]
   ignore:
     envs: [local]
-  blanklines: false
-  profile: false
+  blanklines: true //false
+  profile: true //false
   startings: []
   
 
